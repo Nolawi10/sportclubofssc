@@ -1,73 +1,140 @@
-# Welcome to your Lovable project
+# SSC Sport Club
 
-## Project info
+<p align="center">
+  <img src="https://img.shields.io/badge/Community-Sports-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TypeScript-React-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Modern-Web-111827?style=for-the-badge" />
+</p>
 
-**URL**: https://lovable.dev/projects/8921556a-fdfa-41da-9904-42e05b7c1de1
+<p align="center"><strong>A modern digital platform for student sports, communication, and community engagement.</strong></p>
 
-## How can I edit this code?
+<p align="center">
+  <a href="https://github.com/Nolawi10/sportclubofssc">Repository</a>
+</p>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Why This Project Exists
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8921556a-fdfa-41da-9904-42e05b7c1de1) and start prompting.
+A sports club is more than a fixture list. It is a community that needs a place to **communicate, organize, discover events, and celebrate participation**.
 
-Changes made via Lovable will be committed automatically to this repo.
+SSC Sport Club explores how a modern web platform can bring those experiences together in one accessible interface.
 
-**Use your preferred IDE**
+> **Community → Information → Participation → Engagement**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Platform Goals
 
-Follow these steps:
+| Area | Goal |
+|---|---|
+| **Club Information** | Present the identity, activities, and information of the club. |
+| **Events** | Make sports activities and upcoming events easier to discover. |
+| **Communication** | Create a central digital space for club updates. |
+| **Engagement** | Give students a modern way to interact with club content. |
+| **Responsive Design** | Make the experience usable across desktop and mobile devices. |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Experience
 
-# Step 3: Install the necessary dependencies.
-npm i
+```text
+          STUDENT
+             │
+             ▼
+       DISCOVER CLUB
+             │
+       ┌─────┼─────┐
+       ▼     ▼     ▼
+    EVENTS  NEWS  ACTIVITIES
+       │     │     │
+       └─────┼─────┘
+             ▼
+        PARTICIPATE
+             │
+             ▼
+         COMMUNITY
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## Technology
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=typescript,react,vite,tailwind,html,css,git,github" />
+</p>
+
+**Frontend:** React + TypeScript  
+**Build:** Vite  
+**UI:** shadcn/ui  
+**Styling:** Tailwind CSS  
+**Icons:** Lucide React
+
+---
+
+## Development
+
+### Requirements
+
+- Node.js
+- npm
+
+### Run locally
+
+```bash
+git clone https://github.com/Nolawi10/sportclubofssc.git
+cd sportclubofssc
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```text
+sportclubofssc/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   └── main.*
+├── public/
+├── package.json
+└── README.md
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Design Direction
 
-## How can I deploy this project?
+The project focuses on a clean, responsive interface with reusable components and a structure that can grow with the club.
 
-Simply open [Lovable](https://lovable.dev/projects/8921556a-fdfa-41da-9904-42e05b7c1de1) and click on Share -> Publish.
+Future possibilities include:
 
-## Can I connect a custom domain to my Lovable project?
+- Player and team profiles
+- Match schedules and results
+- Event registration
+- Announcements
+- Media gallery
+- Club statistics
+- Notifications
+- Admin content management
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Development Status
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Active web prototype**
+
+This repository is being developed as a digital community platform for sports-club engagement.
+
+---
+
+<p align="center"><strong>Build the platform. Grow the community.</strong></p>
